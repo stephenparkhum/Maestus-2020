@@ -1,9 +1,6 @@
 import React from 'react';
 import Link from 'react-dom'
 
-// CSS
-import './NavigationItems.css';
-
 const NavigationItems = () => {
     const navItems = [
         {

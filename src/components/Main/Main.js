@@ -1,14 +1,13 @@
 import React from 'react';
-import './Main.css'
 
 // Components
 import Content from '../Content/Content'
 import Navigation from '../Navigation/Navigation'
+import Header from '../Header/Header'
 
 const Main = () => {
     return (
         <main>
-            <h1>Main</h1>
             <Content />
             <Navigation />
         </main>

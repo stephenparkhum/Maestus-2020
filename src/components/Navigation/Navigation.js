@@ -1,5 +1,4 @@
 import React from 'react';
-import './Navigation.css'
 
 // Components
 import SpotifyComponent from './SpotifyComponent/SpotifyComponent'
@@ -9,7 +8,7 @@ const Navigation = () => {
     return (
         <nav>
             <NavigationItems />
-            <SpotifyComponent />
+            {/* <SpotifyComponent /> */}
         </nav>
     )
 }
