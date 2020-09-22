@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "SpotifyComponent.scss"
+    ],
+    "names": [],
+    "file": "SpotifyComponent.css"
+}
