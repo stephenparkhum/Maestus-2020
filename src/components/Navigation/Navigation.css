@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=Navigation.css.map */
+nav {
+  position: fixed;
+  background-color: #222626;
+  width: 100%;
+  padding: 15px 0;
+  left: 0;
+  bottom: 0;
+}
+/*# sourceMappingURL=Navigation.css.map */

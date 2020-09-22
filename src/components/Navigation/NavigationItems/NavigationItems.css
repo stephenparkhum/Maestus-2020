@@ -1,0 +1,30 @@
+ul.nav--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.nav--list li {
+  list-style-type: none;
+  padding: 0 60px;
+}
+
+ul.nav--list li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul.nav--list li a:hover {
+  border-bottom: 2px solid white;
+}
+/*# sourceMappingURL=NavigationItems.css.map */
