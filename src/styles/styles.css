@@ -50,7 +50,17 @@ ul.nav--list li a {
   font-size: 20px;
 }
 
-ul.nav--list li a:hover {
-  border-bottom: 2px solid white;
+ul.nav--list li a:hover, ul.nav--list li a:focus {
+  border-bottom: 2px solid #D9CBBA;
+}
+
+ul.nav--list li a.active {
+  border-bottom: 2px solid #D9CBBA;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
 }
 /*# sourceMappingURL=styles.css.map */

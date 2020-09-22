@@ -12,9 +12,17 @@ ul.nav--list {
             text-decoration: none;
             color: white; 
             font-size: 20px;
-            &:hover {
-                border-bottom: 2px solid white;
+            &:hover, 
+            &:focus {
+                border-bottom: 2px solid $beige;
             }
         }
+
+        a.active {
+            border-bottom: 2px solid $beige;
+        }
+
+
+
     }
 }
