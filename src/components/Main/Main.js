@@ -7,10 +7,12 @@ import Header from '../Header/Header'
 
 const Main = () => {
     return (
-        <main>
+        <div className="main-background">
+            <main>
 
-            <Navigation />
-        </main>
+                <Navigation />
+            </main>
+        </div>
     )
 }
 
