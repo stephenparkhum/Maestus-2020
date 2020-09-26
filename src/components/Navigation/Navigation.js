@@ -8,7 +8,6 @@ const Navigation = () => {
     return (
         <nav>
             <NavigationItems />
-            {/* <SpotifyComponent /> */}
         </nav>
     )
 }

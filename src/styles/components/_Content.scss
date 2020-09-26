@@ -1,6 +1,11 @@
 .content--main {
+    margin: 0 auto;
+    width: 60%;
+    background: $beige;
+    padding: 20px 60px;
+    height: 500px;
+
     h1 {
-        font-size: 12px;
-        color: white;
+        color: $dark-grey;
     }
 }
