@@ -1,8 +1,13 @@
-nav {
+nav.desktop--nav {
+
     position: fixed;
-    background: none;
-    width: 100%;
-    padding: 10px 0;
-    left: 0; 
-    bottom: 0;
+        background: none;
+        width: 100%;
+        padding: 10px 0;
+        left: 0; 
+        bottom: 0;
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 }

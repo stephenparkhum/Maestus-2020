@@ -6,7 +6,7 @@ import NavigationItems from './NavigationItems/NavigationItems'
 
 const Navigation = () => {
     return (
-        <nav>
+        <nav className="desktop--nav">
             <NavigationItems />
         </nav>
     )
