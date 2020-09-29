@@ -8,44 +8,47 @@
 
 
     ul {
-        list-style-type: none;  
+        list-style-type: none;
     }
 
     li {
         list-style-type: none;
         padding: 15px 0;
-        
+
         a {
             text-decoration: none;
-            
-    
+
+
             button.mobile--nav-btn {
                 background-color: $dark-grey;
                 padding: 15px;
                 font-size: 18px;
                 border: none;
-                color: $beige; 
+                color: $beige;
                 border-radius: 3px;
                 width: 100%;
                 margin: 0 auto;
                 text-align: center;
                 cursor: pointer;
+                -webkit-box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
+                -moz-box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
+                box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
 
-                &:hover, 
+                &:hover,
                 &:focus {
-                    background-color: $black;
+                    background-color: #1d2020;
                 }
-                
+
             }
         }
     }
 
-    
 
-    
+
+
 
 
     @media screen and (min-width: $tablet) {
-        display: none;        
+        display: none;
     }
 }
