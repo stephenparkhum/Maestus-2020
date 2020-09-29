@@ -1,6 +1,5 @@
 .mobile--nav {
     width: 80%;
-    margin-top: 50px;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -8,11 +7,14 @@
     justify-content: center;
 
 
+    ul {
+        list-style-type: none;  
+    }
+
     li {
         list-style-type: none;
-        padding: 20px 0;
+        padding: 15px 0;
         
-
         a {
             text-decoration: none;
             
@@ -20,7 +22,7 @@
             button.mobile--nav-btn {
                 background-color: $dark-grey;
                 padding: 15px;
-                font-size: 20px;
+                font-size: 18px;
                 border: none;
                 color: $beige; 
                 border-radius: 3px;
@@ -28,7 +30,7 @@
                 margin: 0 auto;
                 text-align: center;
                 cursor: pointer;
-                
+
                 
             }
         }
@@ -37,9 +39,7 @@
     
 
     
-    ul {
-        list-style-type: none;  
-    }
+
 
     @media screen and (min-width: $tablet) {
         display: none;        

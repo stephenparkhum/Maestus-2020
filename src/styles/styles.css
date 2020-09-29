@@ -13,7 +13,6 @@
 
 .mobile--nav {
   width: 80%;
-  margin-top: 50px;
   margin: 0 auto;
   padding: 0;
   display: -webkit-box;
@@ -28,9 +27,13 @@
           justify-content: center;
 }
 
+.mobile--nav ul {
+  list-style-type: none;
+}
+
 .mobile--nav li {
   list-style-type: none;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .mobile--nav li a {
@@ -40,7 +43,7 @@
 .mobile--nav li a button.mobile--nav-btn {
   background-color: #222626;
   padding: 15px;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
   color: #D9CBBA;
   border-radius: 3px;
@@ -48,10 +51,6 @@
   margin: 0 auto;
   text-align: center;
   cursor: pointer;
-}
-
-.mobile--nav ul {
-  list-style-type: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -104,7 +103,7 @@ ul.nav--list {
 
 ul.nav--list li {
   list-style-type: none;
-  padding: 0 75px;
+  padding: 0 35px;
 }
 
 ul.nav--list li a {

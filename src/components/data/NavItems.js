@@ -5,6 +5,11 @@ const navItems = [
         key: 1
     },
     {
+        name: 'Spotify',
+        link: 'https://open.spotify.com/artist/4omuwE5Aml9XeCwzs5ggSI?si=EMIvjGDYQpqzqV8NHbDUCA',
+        key: 5
+    },
+    {
         name: 'Instagram',
         link: 'https://instagram.com/maestusofficial',
         key: 2
