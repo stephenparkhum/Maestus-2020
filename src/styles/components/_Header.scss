@@ -3,6 +3,16 @@ header {
     text-align: center;
     font-size: 15px;
 
+    img {
+        width: 550px;
+        margin: 15px 0;
+
+        @media screen and (max-width: $tablet) {
+            width: 350px;
+
+        }
+    }
+
     h1 {
         font-weight: normal;
         padding: 0;
