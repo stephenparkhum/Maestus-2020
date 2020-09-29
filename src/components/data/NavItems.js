@@ -1,6 +1,6 @@
 const navItems = [
     {
-        name: 'Music',
+        name: 'Bandcamp',
         link: 'https://maestus.bandcamp.com',
         key: 1
     },
