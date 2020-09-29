@@ -84,6 +84,30 @@
   }
 }
 
+svg.fa-bandcamp {
+  color: #61929C;
+}
+
+svg.fa-facebook {
+  color: #4267B2;
+}
+
+svg.fa-youtube {
+  color: #FF0000;
+}
+
+svg.fa-instagram {
+  color: #fff;
+}
+
+svg.fa-spotify {
+  color: #1DB954;
+}
+
+svg.fa-envelope {
+  color: #fff;
+}
+
 body {
   color: #fff;
   background-image: #0B0C0D;

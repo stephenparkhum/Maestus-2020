@@ -17,7 +17,7 @@
 
         a {
             text-decoration: none;
-            
+
 
             button.mobile--nav-btn {
                 background-color: $dark-grey;
@@ -55,11 +55,34 @@
     }
 
 
-
-
-
-
     @media screen and (min-width: $tablet) {
         display: none;
     }
+
+
+}
+
+// ICON COLORING
+svg.fa-bandcamp {
+    color: $bc;
+}
+
+svg.fa-facebook {
+    color: $fb;
+}
+
+svg.fa-youtube {
+    color: $youtube;
+}
+
+svg.fa-instagram {
+    color: $white;
+}
+
+svg.fa-spotify {
+    color: $spotify;
+}
+
+svg.fa-envelope {
+    color: $white;
 }
