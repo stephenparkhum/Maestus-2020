@@ -41,7 +41,7 @@
 }
 
 .mobile--nav li a button.mobile--nav-btn {
-  background-color: #52514e;
+  background-color: #3a3935;
   padding: 15px;
   font-size: 20px;
   border: none;
@@ -74,6 +74,8 @@
 }
 
 .mobile--nav li a button.mobile--nav-btn .svg-inline--fa {
+  padding-bottom: 0;
+  margin: 0;
   padding-right: 15px;
   font-size: 25px;
 }
