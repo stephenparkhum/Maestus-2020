@@ -14,8 +14,9 @@ function App() {
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Maestus | Test</title>
+        <title>Maestus | Official Site</title>
         <meta name="description" content="Maestus is a blackened doom band from the Pacific Northwest" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href="https://maest.us" />
       </Helmet>
       <Header />

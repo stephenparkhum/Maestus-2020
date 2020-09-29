@@ -20,7 +20,7 @@
 
 
             button.mobile--nav-btn {
-                background-color: $dark-grey;
+                background-color: $btn-grey;
                 padding: 15px;
                 font-size: 20px;
                 border: none;
@@ -42,7 +42,7 @@
 
                 &:hover,
                 &:focus {
-                    background-color: #1d2020;
+                    background-color: $dark-grey;
                 }
 
                 .svg-inline--fa {

@@ -41,7 +41,7 @@
 }
 
 .mobile--nav li a button.mobile--nav-btn {
-  background-color: #222626;
+  background-color: #52514e;
   padding: 15px;
   font-size: 20px;
   border: none;
@@ -70,7 +70,7 @@
 }
 
 .mobile--nav li a button.mobile--nav-btn:hover, .mobile--nav li a button.mobile--nav-btn:focus {
-  background-color: #1d2020;
+  background-color: #222626;
 }
 
 .mobile--nav li a button.mobile--nav-btn .svg-inline--fa {
