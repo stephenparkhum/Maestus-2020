@@ -53,10 +53,28 @@
   cursor: pointer;
   -webkit-box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
   box-shadow: 4px 5px 5px 0px rgba(34, 38, 38, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .mobile--nav li a button.mobile--nav-btn:hover, .mobile--nav li a button.mobile--nav-btn:focus {
   background-color: #1d2020;
+}
+
+.mobile--nav li a button.mobile--nav-btn .svg-inline--fa {
+  padding-right: 15px;
+  font-size: 25px;
 }
 
 @media screen and (min-width: 768px) {
