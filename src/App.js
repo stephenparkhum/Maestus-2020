@@ -6,11 +6,20 @@ import './styles/styles.css';
 import Main from './components/Main/Main'
 import Header from './components/Header/Header'
 
+// Helmet Elements 
+import {Helmet} from "react-helmet";
+
 function App() {
   return (
     <div className="App">
-    <Header />
-     <Main />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Maestus | Test</title>
+        <meta name="description" content="Maestus is a blackened doom band from the Pacific Northwest" />
+        <link rel="canonical" href="https://maest.us" />
+      </Helmet>
+      <Header />
+      <Main />
     </div>
   );
 }
