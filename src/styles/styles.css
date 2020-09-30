@@ -153,9 +153,9 @@ ul.nav--list {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -163,7 +163,6 @@ ul.nav--list {
 
 ul.nav--list li {
   list-style-type: none;
-  padding: 0 35px;
 }
 
 ul.nav--list li a {
