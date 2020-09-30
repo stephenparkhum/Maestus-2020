@@ -1,6 +1,7 @@
 {
   "short_name": "Maestus",
-  "name": "Maestus | Official Site",
+  "name": "Maestus - Official Site",
+  "description": "Official site for the Oregon band Maestus",
   "icons": [
     {
       "src": "favicon.ico",
