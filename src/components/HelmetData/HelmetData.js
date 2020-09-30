@@ -8,7 +8,6 @@ const HelmetData = () => {
     return (
         <Helmet>
             <meta charSet={siteData.char_set} />
-            <title>{siteData.title}</title>
             <meta name="description" content={siteData.description} />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="canonical" href={siteData.link_href} />
