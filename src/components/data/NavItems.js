@@ -1,5 +1,3 @@
-import React from 'react'
-
 // FONTAWESOME ICONS
 import { faBandcamp, faYoutube, faSpotify, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faList } from '@fortawesome/free-solid-svg-icons'
