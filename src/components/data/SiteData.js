@@ -10,7 +10,7 @@ const siteData = {
     og_img: '',
     og_img_width: '',
     og_img_height: '',
-    og_img_alt: 'Official Maestus Site Logo',
+    og_img_alt: 'official-maestus-site-Logo',
     site_name: 'Maestus',
     twitter: {
         card: 'summary',
