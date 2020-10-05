@@ -47,7 +47,7 @@ const navItems = [
     },
     {
         name: 'Contact',
-        link: 'mailto:maestus.pnw@gmail.com',
+        link: 'mailto:contact+web@maest.us',
         icon: faEnvelope,
         active: true,
         key: 4
