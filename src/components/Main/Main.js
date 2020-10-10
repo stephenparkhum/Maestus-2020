@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main-background">
             <main>
                 <MobileNav />
-                {/* ADD THIS WHEN YOU WANT TO DISPLAY YT VIDEO <Content /> */}
+                <Content />
                 <Navigation />
                 <BcPlayer />
             </main>
