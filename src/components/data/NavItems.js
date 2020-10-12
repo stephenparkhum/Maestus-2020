@@ -26,7 +26,7 @@ const navItems = [
     },
     {
         name: 'YouTube',
-        link: 'https://www.youtube.com/channel/UCX73t3G2y82xKbZ2Jcmr0qg',
+        link: 'https://www.youtube.com/watch?v=Df8tQXIMG58',
         icon: faYoutube,
         active: true,
         key: 6
