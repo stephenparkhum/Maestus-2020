@@ -18,6 +18,13 @@ const navItems = [
         key: 5
     },
     {
+        name: "Pre-Save New EP",
+        link: 'https://distrokid.com/hyperfollow/maestus/daybreaks-advent',
+        icon: faSpotify,
+        active: true,
+        key: 7
+    },
+    {
         name: 'Instagram',
         link: 'https://instagram.com/maestusofficial',
         icon: faInstagram,
