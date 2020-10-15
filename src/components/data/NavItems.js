@@ -43,7 +43,7 @@ const navItems = [
         link: 'https://facebook.com/maestusdoom',
         icon: faFacebook,
         active: true,
-        key: 2
+        key: 8
     },
     {
         name: 'Live',
