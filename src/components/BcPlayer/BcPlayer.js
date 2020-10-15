@@ -1,11 +1,25 @@
 import React from 'react'
 
 const BcPlayer = () => {
+    const albumData = [
+        {
+          'name': 'Deliquesce', 
+          'machine_name': 'deliquesce', 
+          'id': '1609786598',
+          'tracks': [
+            '3241988708', 
+            '440411643', 
+            '705618272',
+            '3338469584'
+          ]
+        }, 
+    ]
+
     const songData = [
-        '3241988708', 
-        '440411643', 
-        '705618272',
-        '3338469584'
+      '3241988708', 
+      '440411643', 
+      '705618272',
+      '3338469584'
     ];
 
     function getRandomInt(max) {
