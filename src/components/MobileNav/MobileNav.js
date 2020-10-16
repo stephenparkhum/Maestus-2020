@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const MobileNav = () => {
     const mobileNavItemGeneration = navItems.map(
-        (item) => { if(item.active === true) {
+        (item) => { if(item.active === true && item.mobile === true) {
             return (
                 <li key={item.key}>
                     <a href={item.link} target="_blank" rel="noopener noreferrer" title={item.name}>
