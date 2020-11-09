@@ -4,6 +4,15 @@ import { faEnvelope, faList } from '@fortawesome/free-solid-svg-icons'
 
 const navItems = [
     {
+        name: `Daybreak's Advent Stream`,
+        link: 'https://doomedandstoned.com/post/634332818690932736/maestus',
+        icon: faBandcamp,
+        active: true,
+        desktop: false,
+        mobile: true,
+        key: 9
+    },
+    {
         name: 'Bandcamp',
         link: 'https://maestus.bandcamp.com',
         icon: faBandcamp,
@@ -27,7 +36,7 @@ const navItems = [
         icon: faSpotify,
         active: true,
         desktop: false,
-        mobile: true,
+        mobile: false,
         key: 7
     },
     {
