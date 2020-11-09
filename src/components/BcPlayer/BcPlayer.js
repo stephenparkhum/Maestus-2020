@@ -20,7 +20,7 @@ const BcPlayer = () => {
     const getRandomTrack = (albumData) => {
         let albumId = albumData[0].id;
         let tracks = albumData[0]['tracks'];
-        let randomInt = getRandomInt(tracks.length - 1);
+        let randomInt = getRandomInt(tracks.length);
         let trackSrc = `https://bandcamp.com/EmbeddedPlayer/album=${albumId}/size=small/bgcol=333333/linkcol=0f91ff/track=${tracks[randomInt]}/transparent=true/`
         return trackSrc;
     }
