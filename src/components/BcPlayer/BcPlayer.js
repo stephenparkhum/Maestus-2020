@@ -3,14 +3,12 @@ import React from 'react'
 const BcPlayer = () => {
     const albumData = [
         {
-          'name': 'Deliquesce', 
-          'machine_name': 'deliquesce', 
-          'id': '1609786598',
+          'name': 'Daybreaks Advent', 
+          'machine_name': 'daybreaks-advent', 
+          'id': '2278345818',
           'tracks': [
-            '3241988708', 
-            '440411643', 
-            '705618272',
-            '3338469584'
+            '1236276314', 
+            '616080703'
           ]
         }
     ]
@@ -27,7 +25,7 @@ const BcPlayer = () => {
         return trackSrc;
     }
 
-    const albumMachineName = `https://maestus.bandcamp.com/album/${albumData[0].machine_name}`
+    const albumMachineName = `https://glossolaliarecords.bandcamp.com/album/${albumData[0].machine_name}`
 
     return ( 
         <div className="bc--player">
