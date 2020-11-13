@@ -5,16 +5,16 @@ import { faEnvelope, faList } from '@fortawesome/free-solid-svg-icons'
 const navItems = [
     {
         name: `Daybreak's Advent`,
-        link: 'https://open.spotify.com/album/3CJkPdj4uvVSqq296Ul2bD?si=FDE_AhPCQkOFvLvDZcTAng',
+        link: 'https://maestus.bandcamp.com/album/daybreaks-advent',
         icon: faBandcamp,
         active: true,
-        desktop: false,
+        desktop: true,
         mobile: true,
         key: 9
     },
     {
-        name: 'Bandcamp',
-        link: 'https://maestus.bandcamp.com',
+        name: `Daybreak's Advent (Cassette)`,
+        link: 'https://glossolaliarecords.bandcamp.com/album/daybreaks-advent',
         icon: faBandcamp,
         active: true,
         desktop: true,
@@ -23,7 +23,7 @@ const navItems = [
     },
     {
         name: 'Spotify',
-        link: 'https://open.spotify.com/artist/4omuwE5Aml9XeCwzs5ggSI?si=EMIvjGDYQpqzqV8NHbDUCA',
+        link: 'https://open.spotify.com/album/3CJkPdj4uvVSqq296Ul2bD?si=WrxaqLovQMmrGhPlTH6QQg',
         icon: faSpotify,
         active: true,
         desktop: true,
@@ -53,7 +53,7 @@ const navItems = [
         link: 'https://facebook.com/maestusdoom',
         icon: faFacebook,
         active: true,
-        desktop: true,
+        desktop: false,
         mobile: true,
         key: 8
     },
