@@ -3,7 +3,7 @@ import React from 'react';
 const Content = () => {
     return (
         <div className="content--main">
-            <iframe title="MaestusVideo" src="https://www.youtube.com/embed/Df8tQXIMG58" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4I6iJXQNyiY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     )
 }
