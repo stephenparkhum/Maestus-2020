@@ -3,7 +3,7 @@ const siteData = {
     type: 'website',
     title: 'Maestus | Official Site',
     name: 'Maestus - Official Site',
-    description: `Oregon blackdoom band Maestus will release their latest soul-crushing endeavor, DAYBREAK'S ADVENT on Glossolalia Records - 11/13/2020`,
+    description: `Maestus - DAYBREAK'S ADVENT available now on Glossolalia Records`,
     photo: '',
     link_href: 'https://maest.us',
     local: 'en_US', 
