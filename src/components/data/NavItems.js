@@ -13,7 +13,7 @@ const navItems = [
         key: 9
     },
     {
-        name: `Daybreak's Advent (Cassette)`,
+        name: `Daybreak's Advent (CS)`,
         link: 'https://glossolaliarecords.bandcamp.com/album/daybreaks-advent',
         icon: faBandcamp,
         active: true,
@@ -68,7 +68,7 @@ const navItems = [
     },
     {
         name: 'Contact',
-        link: 'mailto:contact+web@maest.us',
+        link: 'mailto:contact@maest.us',
         icon: faEnvelope,
         active: true,
         mobile: true,
