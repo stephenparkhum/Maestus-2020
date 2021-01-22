@@ -1,6 +1,6 @@
 // FONTAWESOME ICONS
 import { faBandcamp, faYoutube, faSpotify, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faList } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faList, faCompactDisc } from '@fortawesome/free-solid-svg-icons'
 
 const navItems = [
     {
@@ -27,6 +27,15 @@ const navItems = [
         icon: faSpotify,
         active: true,
         desktop: true,
+        mobile: true,
+        key: 5
+    },
+    {
+        name: 'EPK',
+        link: 'https://www.sonicbids.com/band/maestus/',
+        icon: faCompactDisc,
+        active: true,
+        desktop: false,
         mobile: true,
         key: 5
     },
