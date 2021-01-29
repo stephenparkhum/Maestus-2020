@@ -50,7 +50,7 @@ const navItems = [
     },
     {
         name: 'YouTube',
-        link: 'https://www.youtube.com/watch?v=4I6iJXQNyiY&feature=emb_logo',
+        link: 'https://www.youtube.com/channel/UCX73t3G2y82xKbZ2Jcmr0qg',
         icon: faYoutube,
         active: true,
         desktop: true,
